@@ -1,0 +1,143 @@
+/*Navigation Bar*/
+nav {
+   position: fixed;
+   background-color:#FFA62F;
+   width: 150px;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+   top: 0;
+ }
+ .logo {
+   position: relative;
+   width: 70px;
+   height: 70px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 30px;
+   margin-top: 30px;
+ }
+ .logo img {
+   position: relative;
+   max-width: 100%;
+   max-width: 100%;
+   border-radius: 10px;
+ }
+ nav li a {
+   display: block;
+   text-transform: uppercase;
+   text-decoration: none;
+   list-style: none;
+   margin-bottom: 30px;
+   padding: 8px;
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+ }
+ nav li a:hover {
+   background-color: white;
+   color: black;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   opacity: 60%;
+ }
+ nav ul {
+   position: relative;
+   padding: 0;
+   margin: 0;
+ }
+ nav ul {
+   margin-left: 10px;
+ }
+ nav span {
+   position: relative;
+   left: -5px;
+ }
+ .exit {
+   position: relative;
+   margin-top: 90px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40px;
+   height: 40px;
+   background-color: white;
+   opacity: 60%;
+   border-radius: 10px;
+   padding: 3px;
+ }
+ .exit img {
+   position: relative;
+   max-width: 100%;
+   max-height: 100%;
+   opacity: 60%;
+ }
+ .active {
+   background-color: white;
+   color: black;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+ }
+ 
+ .active { /*Dashboard active background*/
+   position: relative;
+   background-color: white;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   color: black;
+ }
+ body {
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+   background-color: #FFE8C8;
+   font-family: sans-serif;
+   color: rgb(94, 94, 94);
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+/*About us*/
+.about {
+   position: relative;
+   width: 80%;
+   height: 100%;
+   left: 200px;
+}
+.about {
+   display: flex;
+   justify-content: center;
+}
+.about-us {
+   text-align: center;
+}
+.farm {
+   position: relative;
+   background-color: aquamarine;
+   width: 100px;
+   height: 100px;
+}
+.para {
+   text-align: left;
+   margin-top: 30px;
+}
+.about img {
+   border-radius: 10px;
+}
+.process img {
+   width: 150px;
+   height: 150px;
+   margin-top: 40px;
+   margin-right: 100px;
+   margin-left: 100px;
+   border: 2px solid black;
+}
+.process {
+   display: flex;
+   justify-content: center;
+}
+.deal {
+   width: 400px;
+}

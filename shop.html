@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/shop.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <ul>
+        <li><a href="landingpage.html"><span>home</span></a></li>
+        <li><a href="shop.html" class="active"><span>product</span></a></li>
+        <li><a href="contact.html"><span>contact</span></a></li>
+        <li><a href="about.html"><span>about</span></a></li>
+      </ul>
+      <div class="exit">
+        <a href="landingpage.html"><img src="./images/exit.png" alt=""></a>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <div class="product-list">
+        <div class="product" data-price="10" data-name="Red Roses">
+          <img src="./images/flower1.jpg" alt="">
+          <h2>Red Roses</h2>
+          <p>₱10.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-price="15" data-name="Mixed Bouquet">
+          <img src="./images/flower2.jpg" alt="">
+          <h2>Mixed Bouquet</h2>
+          <p>₱15.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-price="20" data-name="Colorful Flowers">
+          <img src="/images/flower3.jpg" alt="">
+          <h2>Colorful Flowers</h2>
+          <p>₱20.00</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      <div class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total Price: ₱<span id="total-price">0.00</span></p>
+      </div>
+    </div>
+  </section>
+  <script src="./js/buy.js"></script>
+</body>
+</html>
